@@ -45,7 +45,7 @@
 
 ### 📚 Currently Learning
 <span>
-    <!-- 현재 학습 중인 기술 추가 -->
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white"/>
 </span>
 
 ## Publications 
