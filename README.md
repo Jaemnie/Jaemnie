@@ -4,11 +4,13 @@
 <br><br>
     
 <!-- Title Typing Effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lobster&color=58A6FF&size=35&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Jaemin+Jeong;Web+Developer" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lobster&color=58A6FF&size=35&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Jaemin+Jeong;Web+Developer;Creative+Problem+Solver;Passionate+Learner" alt="Typing SVG" /></a>
 
 <div align="left">
-Hello! 🤗 I'm Jaemin Jeong. I'm currently working as a web developer.  
-I specialize in developing web applications primarily using React and JSP.  
+> "A developer creating a better world through code" 🌏
+
+Currently working as a web developer with a passion for improving user experiences.  
+Primarily using React and JSP, I enjoy learning new technology stacks.  
 I'm always open to new technologies and collaboration opportunities. Feel free to reach out! 💻✨
 </div>
 <br><br>
@@ -22,6 +24,7 @@ I'm always open to new technologies and collaboration opportunities. Feel free t
 Web Development
 
 ## SKILLS
+### 🎯 Main Skills
 <span>
     <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=black"/>
 </span>
@@ -44,7 +47,23 @@ Web Development
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=MySQL&logoColor=white"/>
 </span>
 
+### 🛠 Tools & Platforms
+<span>
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+</span>
+
+### 📚 Currently Learning
+<span>
+    <!-- 현재 학습 중인 기술 추가 -->
+</span>
+
 ## Publications 
+
+## 📫 Connect with Me
+<a href="mailto:your.email@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"/>
+</a>
 
 </div>
 </div>
