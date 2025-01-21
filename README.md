@@ -6,22 +6,12 @@
 <!-- Title Typing Effect -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lobster&color=58A6FF&size=35&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Jaemin+Jeong;Web+Developer;Creative+Problem+Solver;Passionate+Learner" alt="Typing SVG" /></a>
 
-<div align="left">
-> "A developer creating a better world through code" 🌏
-
-Currently working as a web developer with a passion for improving user experiences.  
-Primarily using React and JSP, I enjoy learning new technology stacks.  
-I'm always open to new technologies and collaboration opportunities. Feel free to reach out! 💻✨
-</div>
 <br><br>
 
 <details>
 <summary>About Me</summary>
 
 <div align="left">  
-
-## OBJECTIVE
-Web Development
 
 ## SKILLS
 ### 🎯 Main Skills
