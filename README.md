@@ -54,9 +54,9 @@
 
 <br>
 
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Jaemnie&theme=dark&locale=ko)](https://git.io/streak-stats)
-
+<div align="center">
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Jaemnie&theme=dark&locale=ko" alt="GitHub Streak" /></a>
+</div>
 
 <br>
 
