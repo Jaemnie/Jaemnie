@@ -58,8 +58,7 @@ const jaemin = {
 
 <div align="center">
 
-<!-- GitHub Streak -->
-<img src="https://streak-stats.demolab.com/?user=jaemnie&theme=react&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="70%" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jaemnie&show_icons=true&theme=react)
 
 
 </div>
