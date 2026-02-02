@@ -59,12 +59,8 @@ const jaemin = {
 <div align="center">
 
 <!-- GitHub Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jaemnie&theme=react&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="70%" />
+<img src="https://streak-stats.demolab.com/?user=jaemnie&theme=react&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="70%" />
 
-<br><br>
-
-<!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=jaemnie&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5" width="90%" />
 
 </div>
 
