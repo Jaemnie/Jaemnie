@@ -55,7 +55,7 @@
 <br>
 
 <div align="center">
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Jaemnie&theme=dark&locale=ko" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-blush-theta-23.vercel.app?user=Jaemnie&locale=ko" alt="GitHub Streak" /></a>
 </div>
 
 <br>
