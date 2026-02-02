@@ -54,9 +54,9 @@
 
 <br>
 
-<div align="center">
-  <img src="https://github.com/jaemnie/jaemnie/blob/main/github-metrics.svg" width="70%" />
-</div>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Jaemnie&theme=dark&locale=ko)](https://git.io/streak-stats)
+
 
 <br>
 
