@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # 매 12시간마다 업데이트 (원하는 주기로 변경 가능)
-  schedule: [{cron: "0 */12 * * *"}]
-  # 수동으로 실행 가능하게 설정
+  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  # main 브랜치에 푸시될 때마다 실행
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -13,16 +10,66 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: General stats
+      - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: jaemnie
-          template: classic
-          base: header, community, repositories, metadata
-          config_timezone: Asia/Seoul
           
-          # 여기에 다양한 플러그인을 추가할 수 있습니다.
+          # 깔끔한 테마 설정
+          template: classic
+          config_timezone: Asia/Seoul
+          config_display: large
+          config_padding: 5%
+          
+          # 다크 테마 색상 (streak-stats 스타일)
+          config_order: base.header, isocalendar, languages, base.activity+community
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #161b22;
+              --color-calendar-graph-day-L1-bg: #0e4429;
+              --color-calendar-graph-day-L2-bg: #006d32;
+              --color-calendar-graph-day-L3-bg: #26a641;
+              --color-calendar-graph-day-L4-bg: #39d353;
+            }
+            body {
+              background-color: #20232a !important;
+              color: #ffffff !important;
+            }
+            svg {
+              background-color: #20232a !important;
+              font-family: 'Segoe UI', Ubuntu, sans-serif;
+            }
+            h1, h2, h3, .field {
+              color: #58A6FF !important;
+            }
+            .subtitle, section.base .field .name {
+              color: #8b949e !important;
+            }
+            .progress {
+              background-color: #30363d !important;
+            }
+            .avatar {
+              border-radius: 50% !important;
+              border: 3px solid #58A6FF !important;
+            }
+            section {
+              background-color: transparent !important;
+            }
+          
+          # 기본 정보
+          base: header, activity, community, repositories
+          base_indepth: yes
+          
+          # Isocalendar (잔디 그래프)
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          # 언어 통계
           plugin_languages: yes
-          plugin_languages_details: percentage
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 6
+          plugin_languages_colors: github
+          plugin_languages_threshold: 1%
