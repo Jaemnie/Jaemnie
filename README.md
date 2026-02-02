@@ -55,7 +55,7 @@
 <br>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=jaemnie&theme=default&hide_border=true&background=FFFFFF&ring=0064FF&fire=0064FF&currStreakLabel=0064FF&sideLabels=191F28&dates=8B95A1&currStreakNum=191F28&sideNums=191F28" width="60%" />
+  <img src="https://github.com/jaemnie/jaemnie/blob/main/github-metrics.svg" width="70%" />
 </div>
 
 <br>
