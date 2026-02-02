@@ -58,7 +58,7 @@ const jaemin = {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jaemnie&show_icons=true&theme=react)
+![GitHub Metrics](./github-metrics.svg)
 
 
 </div>
